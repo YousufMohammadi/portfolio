@@ -1,0 +1,40 @@
+.header-container{
+    width: 100%;
+    height: 80px;
+    background: #222831;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.10);
+}
+.brand{
+    color: #EEE;
+    text-shadow: 0px 4px 4px rgba(0, 170, 179, 0.50);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.header-links{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.link{
+    color: #EEE;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.link:hover{
+    color: #00ADB5;
+}
