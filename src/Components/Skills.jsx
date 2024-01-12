@@ -2,7 +2,7 @@ import "../Styles/Components/Skills.css"
 export function Skills() {
     return (
       <div className="skills-container">
-        <p className="skill-par">
+        <p className="section-heading">
           my <span>skills</span>
         </p>
         <div className="skills">

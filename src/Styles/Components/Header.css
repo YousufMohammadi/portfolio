@@ -35,6 +35,7 @@
     text-decoration: none;
     transition: all 0.3s;
 }
-.link:hover{
+.link:hover,
+.link:active{
     color: #00ADB5;
 }

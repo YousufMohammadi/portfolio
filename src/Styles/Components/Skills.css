@@ -1,6 +1,6 @@
 .skills-container{
     width: 100%;
-    background-image: url("../../../public/skills.png");
+    background-image: url("../../../public/doodleItems.png");
     background-color: #222831;
     background-repeat: repeat;
     overflow: hidden;
@@ -9,8 +9,9 @@
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
+    padding-bottom: 50px;
 }
-.skill-par{
+.section-heading{
     color: var(--Color-3, #EEE);
     font-family: Poppins;
     font-size: 64px;
@@ -19,7 +20,7 @@
     line-height: normal;
     text-transform: capitalize;
 }
-.skill-par span{
+.section-heading span{
     color: #00ADB5;
 }
 .skills{
