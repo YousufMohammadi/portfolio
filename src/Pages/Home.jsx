@@ -9,11 +9,11 @@ import { Skills } from "../Components/Skills";
 export function Home() {
     return <div>
         <Header />
-        {/* <Abstract />
+        <Abstract />
         <About />
         <Skills />
         <Projects />
         <Contact />
-        <Footer /> */}
+        <Footer />
     </div>
 }

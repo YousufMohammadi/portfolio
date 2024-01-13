@@ -56,7 +56,7 @@
     }
     .header-links{
         width: 100%;
-        min-height: calc(100vh -80px);
+        height: calc(100vh - 80px);
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -68,7 +68,6 @@
         background: #222831;
         border-top: 1px solid rgba(238, 238, 238, 0.10);
         padding-top: 20px;
-
     }
     .link{
         color: #EEE;
