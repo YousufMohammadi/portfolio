@@ -11,6 +11,7 @@ export function Header() {
           <Link className="link">Projects</Link>
           <Link className="link">Contact</Link>
         </div>
+        <Link id="menu"><i class="fa-solid fa-bars"></i></Link>
       </div>
     );
 }
