@@ -160,6 +160,28 @@ export function Skills() {
               <span className="empty"></span>
             </div>
           </div>
+          <div className="skill">
+            <img src="github.png" alt="skill" className="skill-icon" />
+            <h2 className="skill-title">github</h2>
+            <div className="skill-percentage">
+              <span className="fill"></span>
+              <span className="fill"></span>
+              <span className="fill"></span>
+              <span className="fill"></span>
+              <span className="empty"></span>
+            </div>
+          </div>
+          <div className="skill">
+            <img src="github.png" alt="skill" className="skill-icon" />
+            <h2 className="skill-title">github</h2>
+            <div className="skill-percentage">
+              <span className="fill"></span>
+              <span className="fill"></span>
+              <span className="fill"></span>
+              <span className="fill"></span>
+              <span className="empty"></span>
+            </div>
+          </div>
         </div>
       </div>
     );

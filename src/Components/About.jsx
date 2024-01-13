@@ -10,25 +10,37 @@ export function About() {
           about <span>me</span>
         </p>
         <div className="btns">
-          <Link to={"#"} className="btn-active" onClick={()=>{
-            setText(BIO)
-          }}>
+          <Link
+            to={"#"}
+            className="btn-active"
+            onClick={() => {
+              setText(BIO);
+            }}
+          >
             Bio
           </Link>
-          <Link to={"#"} className="btn" onClick={()=>{
-            setText(EDUCATION)
-          }}>
+          <Link
+            to={"#"}
+            className="btn"
+            onClick={() => {
+              setText(EDUCATION);
+            }}
+          >
             Education
           </Link>
-          <Link to={"#"} className="btn" onClick={()=>{
-            setText(EXPERIENCE)
-          }}>
+          <Link
+            to={"#"}
+            className="btn"
+            onClick={() => {
+              setText(EXPERIENCE);
+            }}
+          >
             Experience
           </Link>
         </div>
         <h2 className="brand">A Little About Me And My Passion</h2>
         <div className="about">
-          <div className="about-images">
+          {/* <div className="about-images">
             <img
               src="about.png"
               alt="about"
@@ -39,10 +51,9 @@ export function About() {
               alt="about"
               className="about-image about-image2"
             />
-          </div>
-          <p className="par">
-            {text}
-          </p>
+          </div> */}
+          <img src="yousuf.jpg" alt="about" className="myImage" />
+          <p className="par">{text}</p>
         </div>
       </div>
     );

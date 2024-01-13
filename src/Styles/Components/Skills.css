@@ -10,6 +10,7 @@
     align-items: center;
     gap: 20px;
     padding-bottom: 50px;
+    /* border-bottom: 1px solid rgba(238, 238, 238, 0.10); */
 }
 .section-heading{
     color: var(--Color-3, #EEE);
