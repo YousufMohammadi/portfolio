@@ -19,7 +19,7 @@ export function Abstract() {
         <div className="images">
           <img
             alt="images"
-            src="abstract.png"
+            src="about.png"
             className="image image1"
           />
           <img
