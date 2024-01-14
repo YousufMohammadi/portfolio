@@ -3,7 +3,7 @@ export function Contact() {
     return (
       <div className="contact-container">
         <div className="contact-section">
-          <h2 className="contact-heading">
+          <h2 className="section-heading">
             Got a project in <span>mind?</span>
           </h2>
           <img src="contact.png" alt="contact" className="contact-image"/>

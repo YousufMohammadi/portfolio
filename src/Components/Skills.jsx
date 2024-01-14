@@ -3,7 +3,7 @@ export function Skills() {
     return (
       <div className="skills-container">
         <p className="section-heading">
-          my <span>skills</span>
+          My <span>Skills</span>
         </p>
         <div className="skills">
           <div className="skill">

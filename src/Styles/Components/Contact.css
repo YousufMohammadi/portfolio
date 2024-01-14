@@ -13,18 +13,6 @@
 }
 .contact-section{
     width: 500px;
-    height: 500px;
-}
-.contact-heading{
-    color: var(--Color-3, #EEE);
-    font-family: Poppins;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 80px; 
-}
-.contact-heading span{
-    color: #00ADB5;
 }
 .contact-image{
     float: right;
@@ -60,7 +48,7 @@
     border: none;
     outline: none;
 }
-.form-input::placeholder{
+::placeholder{
     color: rgba(238, 238, 238, 0.50);
     font-family: Poppins;
     font-size: 18px;
@@ -71,8 +59,9 @@
 }
 .form-message{
     display: flex;
+    width: 452px;
     height: 280px;
-    padding: 16px 256px 16px 24px;
+    padding: 16px 24px;
     align-items: flex-start;
     gap: 10px;
     align-self: stretch;
@@ -81,8 +70,8 @@
     color: rgba(238, 238, 238, 0.50);
     font-family: Poppins;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
+    font-style: normal;
     line-height: normal;
     border: none;
     outline: none;
@@ -104,4 +93,137 @@
     border: none;
     outline: none;
     cursor: pointer;
+}
+@media only screen and (max-width:1100px) {
+.contact-container{
+    flex-direction: column;
+}
+.contact-section{
+    width: 80%;
+}
+.contact-image{
+    float:none;
+    margin-left: 35%;
+}
+.form-container{
+    flex-direction: column;
+    gap: 12px;
+}
+.form-input{
+    width: 500px;
+}
+.form-message{
+    width: 500px;
+    height: 280px;
+}
+}
+@media only screen and (max-width:768px) {
+.contact-section{
+    width: 90%;
+}
+.form-label{
+    font-size: 16px;
+    font-weight: 700;
+}
+.form-input{
+    width: 450px;
+}
+::placeholder{
+    font-size: 16px;
+    font-weight: 700;
+}
+.form-message{
+    width: 450px;
+    height: 280px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.form-btn{
+    padding: 8px 28px;
+    font-size: 17px;
+    font-weight: 700;
+}
+}
+@media only screen and (max-width:600px) {
+.contact-image{
+    margin-left: 0%;
+}
+.form-label{
+    font-size: 15px;
+    font-weight: 700;
+}
+.form-input{
+    width: 350px;
+}
+::placeholder{
+    font-size: 15px;
+    font-weight: 700;
+}
+.form-message{
+    width: 350px;
+    height: 280px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.form-btn{
+    padding: 6px 24px;
+    font-size: 16px;
+    font-weight: 700;
+}
+}
+@media only screen and (max-width:500px) {
+.contact-image{
+    margin-left: 0%;
+}
+.form-label{
+    font-size: 15px;
+    font-weight: 600;
+}
+.form-input{
+    width: 300px;
+}
+.form-message{
+    width: 300px;
+    height: 250px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.form-btn{
+    padding: 6px 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+}
+@media only screen and (max-width:400px) {
+.contact-image{
+    margin-left: 0%;
+}
+.form-label{
+    font-size: 14px;
+    font-weight: 500;
+}
+.form-input{
+    width: 200px;
+}
+::placeholder{
+    font-size: 14px;
+    font-weight: 600;
+}
+.form-message{
+    width: 200px;
+    height: 170px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.form-btn{
+    padding: 6px 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+}
+@media only screen and (max-width:350px) {
+.contact-image{
+    width: 200px;
+    height: 200px;
+}
 }

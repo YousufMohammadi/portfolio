@@ -8,7 +8,7 @@ export function About() {
     return (
       <div className="about-container">
         <p className="section-heading">
-          about <span>me</span>
+          About <span>Me</span>
         </p>
         <div className="btns">
           <Link
