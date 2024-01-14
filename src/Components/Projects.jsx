@@ -1,7 +1,7 @@
 import "../Styles/Components/Projects.css"
 export function Projects() {
     return (
-      <div className="projects-container">
+      <div className="projects-container" id="projects">
         <p className="section-heading">
           MY <span>Projects</span>
         </p>

@@ -13,11 +13,21 @@ export function Header() {
       <div className="header-container">
         <div className="brand">Yousuf Mohammadi</div>
         <div className="header-links" id="links">
-          <Link className="link">Home</Link>
-          <Link className="link">Skills</Link>
-          <Link className="link">About</Link>
-          <Link className="link">Projects</Link>
-          <Link className="link">Contact</Link>
+          <a className="link" href={"#home"}>
+            Home
+          </a>
+          <a className="link" href={"#about"}>
+            About
+          </a>
+          <a className="link" href={"#skills"}>
+            Skills
+          </a>
+          <a className="link" href={"#projects"}>
+            Projects
+          </a>
+          <a className="link" href={"#contact"}>
+            Contact
+          </a>
         </div>
         <Link onClick={handleMenu} id="menu">
           <i class="fa-solid fa-bars"></i>

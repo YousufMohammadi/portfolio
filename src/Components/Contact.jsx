@@ -1,7 +1,7 @@
 import "../Styles/Components/Contact.css"
 export function Contact() {
     return (
-      <div className="contact-container">
+      <div className="contact-container" id="contact">
         <div className="contact-section">
           <h2 className="section-heading">
             Got a project in <span>mind?</span>

@@ -6,7 +6,7 @@ export function About() {
     const [text, setText] = useState(BIO);
     const [type, setType] = useState("string");
     return (
-      <div className="about-container">
+      <div className="about-container" id="about">
         <p className="section-heading">
           About <span>Me</span>
         </p>

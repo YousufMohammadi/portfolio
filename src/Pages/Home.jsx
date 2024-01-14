@@ -7,7 +7,7 @@ import { Projects } from "../Components/Projects";
 import { Skills } from "../Components/Skills";
 
 export function Home() {
-    return <div>
+    return <div id="home">
         <Header />
         <Abstract />
         <About />

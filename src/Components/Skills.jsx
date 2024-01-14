@@ -1,7 +1,7 @@
 import "../Styles/Components/Skills.css"
 export function Skills() {
     return (
-      <div className="skills-container">
+      <div className="skills-container" id="skills">
         <p className="section-heading">
           My <span>Skills</span>
         </p>

@@ -1,7 +1,7 @@
 import "../Styles/Components/Abstract.css"
 export function Abstract() {
     return (
-      <div className="abstract-container">
+      <div className="abstract-container" id="abstract">
         <div className="introduction">
           <p className="intro-par">
             CREATIVE <span>PROGRAMMER</span>
