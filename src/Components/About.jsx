@@ -3,7 +3,7 @@ import "../Styles/Components/About.css"
 import { useState } from "react";
 import { BIO, EDUCATION, EXPERIENCE } from "../Constants/Constants";
 export function About() {
-    const [text, setText] = useState(EDUCATION);
+    const [text, setText] = useState(BIO);
     const [type, setType] = useState("string");
     return (
       <div className="about-container">
