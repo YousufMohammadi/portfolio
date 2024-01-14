@@ -68,6 +68,7 @@
         background: #222831;
         border-top: 1px solid rgba(238, 238, 238, 0.10);
         padding-top: 20px;
+        z-index: 99999;
     }
     .link{
         color: #EEE;
