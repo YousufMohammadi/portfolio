@@ -12,8 +12,8 @@ export function Home() {
         <Abstract />
         <About />
         <Skills />
-        {/* <Projects />
-        <Contact />
+        <Projects />
+        {/* <Contact />
         <Footer /> */}
     </div>
 }

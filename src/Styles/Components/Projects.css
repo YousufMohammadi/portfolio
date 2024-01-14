@@ -12,13 +12,13 @@
     border-bottom: 1px solid rgba(238, 238, 238, 0.10);
 }
 .projects{
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 50px;
 }
 .project{
     width: 40%;
@@ -31,6 +31,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    text-align: center;
     gap: 5px;
 }
 .project-icon{
@@ -46,4 +47,40 @@
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+}
+@media only screen and (max-width:1100px) {
+    .project-heading{
+    color:  rgba(238, 238, 238, 0.75);
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+}
+@media only screen and (max-width:950px) {
+    .project-heading{
+    font-size: 20px;
+}
+}
+@media only screen and (max-width:900px) {
+    .projects{
+    width: 98%;
+}
+.project{
+    width: 320px;
+}
+}
+@media only screen and (max-width:400px) {
+    .projects{
+    width: 100%;
+}
+.project{
+    width: 300px;
+}
+    .project-heading{
+    font-size: 18px;
+    font-weight: 600;
+}
 }
