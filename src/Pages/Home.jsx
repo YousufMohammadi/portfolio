@@ -11,8 +11,8 @@ export function Home() {
         <Header />
         <Abstract />
         <About />
-        {/* <Skills />
-        <Projects />
+        <Skills />
+        {/* <Projects />
         <Contact />
         <Footer /> */}
     </div>
