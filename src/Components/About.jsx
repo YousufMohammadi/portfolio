@@ -3,7 +3,8 @@ import "../Styles/Components/About.css"
 import { useState } from "react";
 import { BIO, EDUCATION, EXPERIENCE } from "../Constants/Constants";
 export function About() {
-    const [text,setText] = useState(BIO)
+    const [text, setText] = useState(EDUCATION);
+    const [type, setType] = useState("string");
     return (
       <div className="about-container">
         <p className="section-heading">
@@ -13,8 +14,14 @@ export function About() {
           <Link
             to={"#"}
             className="btn-active"
+            id="btn1"
             onClick={() => {
               setText(BIO);
+              setType("string");
+              document.getElementById("btn1").classList.remove("btn");
+              document.getElementById("btn1").classList.add("btn-active");
+              document.getElementById("btn2").classList.add("btn");
+              document.getElementById("btn3").classList.add("btn");
             }}
           >
             Bio
@@ -22,8 +29,14 @@ export function About() {
           <Link
             to={"#"}
             className="btn"
+            id="btn2"
             onClick={() => {
               setText(EDUCATION);
+              setType("list");
+              document.getElementById("btn2").classList.remove("btn");
+              document.getElementById("btn2").classList.add("btn-active");
+              document.getElementById("btn1").classList.add("btn");
+              document.getElementById("btn3").classList.add("btn");
             }}
           >
             Education
@@ -31,8 +44,14 @@ export function About() {
           <Link
             to={"#"}
             className="btn"
+            id="btn3"
             onClick={() => {
               setText(EXPERIENCE);
+              setType("list");
+              document.getElementById("btn3").classList.remove("btn");
+              document.getElementById("btn3").classList.add("btn-active");
+              document.getElementById("btn1").classList.add("btn");
+              document.getElementById("btn2").classList.add("btn");
             }}
           >
             Experience
@@ -40,20 +59,18 @@ export function About() {
         </div>
         <h2 className="brand">A Little About Me And My Passion</h2>
         <div className="about">
-          {/* <div className="about-images">
-            <img
-              src="about.png"
-              alt="about"
-              className="about-image about-image1"
-            />
-            <img
-              src="doodleItems.png"
-              alt="about"
-              className="about-image about-image2"
-            />
-          </div> */}
           <img src="yousuf.jpg" alt="about" className="myImage" />
+          {type === "string" ?
           <p className="par">{text}</p>
+          :
+          <ul>
+            {
+              text.map((t,index)=>{
+                return <li key={index}>{t}</li>;
+              })
+            }
+          </ul>
+          }
         </div>
       </div>
     );

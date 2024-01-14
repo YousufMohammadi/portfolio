@@ -73,6 +73,10 @@
     font-weight: 700;
     line-height: normal;
     text-decoration: none;
+    transition: all 0.3s;
+}
+.btn:hover{
+    background: var(--Color-3, #00ADB5) !important;
 }
 .download-icon{
     font-size: 18px;
