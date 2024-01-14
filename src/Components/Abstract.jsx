@@ -7,10 +7,10 @@ export function Abstract() {
             CREATIVE <span>PROGRAMMER</span>
           </p>
           <div className="btns">
-          <a href="#" className="btn-active">
+          <a href="#contact" className="btn-active">
             hire me
           </a>
-          <a href="#" className="btn">
+          <a href="cv.pdf" className="btn">
             Download CV{" "}
             <i class="fa-solid fa-cloud-arrow-down download-icon"></i>
           </a>
