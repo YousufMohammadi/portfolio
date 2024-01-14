@@ -115,6 +115,7 @@
 .form-message{
     width: 500px;
     height: 280px;
+    margin-bottom: 10px;
 }
 }
 @media only screen and (max-width:768px) {

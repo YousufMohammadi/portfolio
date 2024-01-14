@@ -20,6 +20,7 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    text-align: center;
 }
 .header-links{
     height: 100%;
@@ -90,4 +91,4 @@
         display: block;
         padding-right: 3%;
     }
-  }
+}

@@ -14,6 +14,6 @@ export function Home() {
         <Skills />
         <Projects />
         <Contact />
-        {/* <Footer /> */}
+        <Footer />
     </div>
 }
