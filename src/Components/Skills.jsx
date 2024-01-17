@@ -161,8 +161,8 @@ export function Skills() {
             </div>
           </div>
           <div className="skill">
-            <img src="github.png" alt="skill" className="skill-icon" />
-            <h2 className="skill-title">github</h2>
+            <img src="antd.png" alt="skill" className="skill-icon" />
+            <h2 className="skill-title">Ant Design</h2>
             <div className="skill-percentage">
               <span className="fill"></span>
               <span className="fill"></span>
@@ -172,8 +172,8 @@ export function Skills() {
             </div>
           </div>
           <div className="skill">
-            <img src="github.png" alt="skill" className="skill-icon" />
-            <h2 className="skill-title">github</h2>
+            <img src="tailwind.png" alt="skill" className="skill-icon" />
+            <h2 className="skill-title">Tailwind</h2>
             <div className="skill-percentage">
               <span className="fill"></span>
               <span className="fill"></span>

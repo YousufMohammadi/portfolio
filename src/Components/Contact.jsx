@@ -1,13 +1,15 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 import "../Styles/Components/Contact.css";
 export function Contact() {
+  const [sending,setSending] = useState(false)
+  const [sent, setSent] = useState(false);
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    setSending(true)
     emailjs
       .sendForm(
         "service_67qigp6",
@@ -18,8 +20,18 @@ export function Contact() {
       .then(
         (result) => {
           console.log(result.text);
+          setSending(false);
+          setSent(true);
+          setTimeout(() => {
+            setSent(false);
+          }, 2000);
+          document.getElementById("user_name").value = "";
+          document.getElementById("user_email").value = "";
+          document.getElementById("message").value = "";
         },
         (error) => {
+          setSending(false);
+          setSent(false);
           console.log(error.text);
         }
       );
@@ -41,23 +53,37 @@ export function Contact() {
               placeholder="name"
               className="form-input"
               name="user_name"
+              id="user_name"
+              required
             />
           </div>
           <div className="form-group">
             <p className="form-label">Your email</p>
             <input
-              type="text"
+              type="email"
               placeholder="email"
               className="form-input"
               name="user_email"
+              id="user_email"
+              required
             />
           </div>
           <div className="form-group">
             <p className="form-label">Your Message</p>
-            <textarea placeholder="Message" className="form-message"></textarea>
+            <textarea
+              placeholder="Message"
+              className="form-message"
+              name="message"
+              id="message"
+            ></textarea>
           </div>
-          <button className="form-btn" name="message">
-            Send Message <i class="fa-regular fa-paper-plane"></i>
+          <button className="form-btn">
+            Send Message{" "}
+            {sending ? (
+              <span className="spinner"></span>
+            ) : (
+              <i class="fa-regular fa-paper-plane"></i>
+            )}
           </button>
         </form>
       </div>
