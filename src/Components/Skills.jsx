@@ -14,7 +14,7 @@ export function Skills() {
               <span className="fill"></span>
               <span className="fill"></span>
               <span className="fill"></span>
-              <span className="empty"></span>
+              <span className="fill"></span>
             </div>
           </div>
           <div className="skill">
@@ -25,7 +25,7 @@ export function Skills() {
               <span className="fill"></span>
               <span className="fill"></span>
               <span className="fill"></span>
-              <span className="empty"></span>
+              <span className="fill"></span>
             </div>
           </div>
           <div className="skill">
@@ -57,7 +57,7 @@ export function Skills() {
               <span className="fill"></span>
               <span className="fill"></span>
               <span className="fill"></span>
-              <span className="fill"></span>
+              <span className="empty"></span>
               <span className="empty"></span>
             </div>
           </div>
@@ -68,7 +68,7 @@ export function Skills() {
               <span className="fill"></span>
               <span className="fill"></span>
               <span className="fill"></span>
-              <span className="fill"></span>
+              <span className="empty"></span>
               <span className="empty"></span>
             </div>
           </div>
@@ -79,7 +79,7 @@ export function Skills() {
               <span className="fill"></span>
               <span className="fill"></span>
               <span className="fill"></span>
-              <span className="fill"></span>
+              <span className="empty"></span>
               <span className="empty"></span>
             </div>
           </div>
@@ -102,7 +102,7 @@ export function Skills() {
               <span className="fill"></span>
               <span className="fill"></span>
               <span className="fill"></span>
-              <span className="empty"></span>
+              <span className="fill"></span>
             </div>
           </div>
           <div className="skill">
@@ -122,8 +122,8 @@ export function Skills() {
             <div className="skill-percentage">
               <span className="fill"></span>
               <span className="fill"></span>
-              <span className="fill"></span>
-              <span className="fill"></span>
+              <span className="empty"></span>
+              <span className="empty"></span>
               <span className="empty"></span>
             </div>
           </div>
@@ -145,7 +145,7 @@ export function Skills() {
               <span className="fill"></span>
               <span className="fill"></span>
               <span className="fill"></span>
-              <span className="fill"></span>
+              <span className="empty"></span>
               <span className="empty"></span>
             </div>
           </div>
@@ -157,7 +157,7 @@ export function Skills() {
               <span className="fill"></span>
               <span className="fill"></span>
               <span className="fill"></span>
-              <span className="empty"></span>
+              <span className="fill"></span>
             </div>
           </div>
           <div className="skill">
@@ -168,7 +168,7 @@ export function Skills() {
               <span className="fill"></span>
               <span className="fill"></span>
               <span className="fill"></span>
-              <span className="empty"></span>
+              <span className="fill"></span>
             </div>
           </div>
           <div className="skill">
