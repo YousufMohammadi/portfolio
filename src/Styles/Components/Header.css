@@ -62,7 +62,7 @@
     .header-links{
         width: 100%;
         height: calc(100vh - 80px);
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
