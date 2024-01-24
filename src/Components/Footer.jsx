@@ -37,6 +37,9 @@ export function Footer() {
           <Link to={"https://x.com/yousufm1157?s=09"} className="social">
             <i class="fa-brands fa-x-twitter"></i>
           </Link>
+          <Link to={"https://medium.com/@yousufmohammadi"} className="social">
+            <i class="fa-brands fa-medium"></i>
+          </Link>
         </div>
       </div>
     );
