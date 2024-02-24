@@ -25,6 +25,9 @@ export function Header() {
           <a className="link" href={"#projects"}>
             Projects
           </a>
+          <a className="link" href={"/articles"}>
+            Article
+          </a>
           <a className="link" href={"#contact"}>
             Contact
           </a>
