@@ -39,6 +39,7 @@
     line-height: normal;
     text-decoration: none;
     transition: all 0.3s;
+    cursor: pointer;
 }
 .link:hover,
 .link:active{
