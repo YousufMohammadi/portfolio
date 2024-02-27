@@ -10,17 +10,10 @@ export function Articles() {
         </p>
         <div className="projects">
           <div className="project">
-            <img src="project1.png" alt="project" className="project-icon" />
-            <h2 className="project-heading">Oxygen DBMS</h2>
-            <a href="#" className="btn-active">
-              Demo <i class="fa-regular fa-eye download-icon"></i>
-            </a>
-          </div>
-          <div className="project">
-            <img src="project2.png" alt="project" className="project-icon" />
-            <h2 className="project-heading">gym power DBMS</h2>
-            <a href="#" className="btn-active">
-              Demo <i class="fa-regular fa-eye download-icon"></i>
+            <img src="reacthooks.JPEG" alt="project" className="project-icon" />
+            <h2 className="project-heading">React Hooks</h2>
+            <a href="https://reacthooks.onrender.com/" target="_blank" className="btn-active">
+              Read More <i class="fa-regular fa-eye download-icon"></i>
             </a>
           </div>
         </div>
