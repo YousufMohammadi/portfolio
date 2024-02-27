@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "../Styles/Components/Header.css"
 export function Header() {
+  const navigate = useNavigate()
   function handleMenu() {
     var x = document.getElementById("links");
     if (x.style.display === "flex") {
@@ -25,7 +26,7 @@ export function Header() {
           <a className="link" href={"#projects"}>
             Projects
           </a>
-          <a className="link" href={"/articles"}>
+          <a className="link" onClick={()=>navigate("/articles")}>
             Article
           </a>
           <a className="link" href={"#contact"}>
