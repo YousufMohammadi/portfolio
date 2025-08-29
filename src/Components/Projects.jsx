@@ -46,6 +46,16 @@ export function Projects() {
 						Demo <i class="fa-regular fa-eye download-icon"></i>
 					</a>
 				</div>
+				<div className="project">
+					<img src="project5.jpg" alt="project" className="project-icon" />
+					<h2 className="project-heading">Baran MIS</h2>
+					<a
+						href="https://billing.techlands.online/"
+						target="_blank"
+						className="btn-active">
+						Demo <i class="fa-regular fa-eye download-icon"></i>
+					</a>
+				</div>
 			</div>
 		</div>
 	);
